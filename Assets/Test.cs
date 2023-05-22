@@ -44,8 +44,18 @@ public class Test : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-     
+        int[] array = { 20, 45, 90, 120, 229, 319 };
+        for(int a =0; a < array.Length; a++)
+        {
+            Debug.Log(array[a]);
+        }
+        for(int b =5; b >=0; b--)
+        {
+            Debug.Log(array[b]);
+        }
+  
        
+
         Boss lastboss = new Boss();
 
        
